@@ -1,4 +1,4 @@
-import { supabase } from "../../supabaseClient";
+import { supabase } from "../../utils/supabaseClient";
 import CommentForm from "../../components/CommentForm";
 
 export async function getServerSideProps({ params }) {
